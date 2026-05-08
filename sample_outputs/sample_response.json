@@ -1,0 +1,24 @@
+{
+  "lead_quality": "high_intent",
+  "recommended_funnel": "real_estate_buyer_lead_funnel",
+  "recommended_action": "schedule_discovery_call",
+  "score_breakdown": {
+    "rule_score": 95.0,
+    "semantic_score": 88.42,
+    "llm_confidence_score": 91.71,
+    "final_score": 91.19
+  },
+  "automation_workflow": {
+    "crm_tag": "high_intent",
+    "email_sequence": "high_intent_sales_followup_v1",
+    "notify_sales_team": true,
+    "next_step": "schedule_discovery_call"
+  },
+  "explanation": "The lead shows strong buying intent because the business goal is clear, the timeline is urgent, and the submitted intent is semantically close to high-converting funnel use cases.",
+  "metadata": {
+    "scoring_method": "hybrid_rule_semantic_llm",
+    "rule_weight": 0.4,
+    "semantic_weight": 0.4,
+    "llm_weight": 0.2
+  }
+}
